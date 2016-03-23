@@ -4,8 +4,8 @@ body {
 }
 
 #header {
-    background: #FFFFFF url(../img/header-background.jpg) no-repeat center;
-    width: 100%;
+    background: #FFFFFF url(../img/header-background.jpg) no-repeat center center;
+    width: auto;
     height: 750px;
     color: #FFFFFF;
     position: relative;
@@ -18,26 +18,47 @@ body {
     margin-bottom: 80px;
 }
 
-.summary h1 {
-    margin-bottom: 30px;
-    font-size: 300%;
+
+@media (max-width: 768px) {
+    #header h1 {
+        text-align: center;
+        font-size: 300%;
+    }
+
+    #header p {
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .summary h1 {
+        margin-bottom: 30px;
+        font-size: 250%;
+    }
+
+    .summary p {
+        font-size: 150%;
+    }
 }
 
-.summary p {
-    font-size: 150%;
-}
+@media (min-width: 768px) {
+    #header h1 {
+        text-align: center;
+        font-size: 500%;
+    }
 
-#header h1 {
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
-    font-size: 500%;
-}
+    #header p {
+        text-align: center;
+        font-size: 200%;
+    }
 
-#header p {
-    margin: auto;
-    text-align: center;
-    font-size: 200%;
+    .summary h1 {
+        margin-bottom: 30px;
+        font-size: 300%;
+    }
+
+    .summary p {
+        font-size: 150%;
+    }
 }
 
 .header-icon-left {
