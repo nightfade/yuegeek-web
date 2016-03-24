@@ -61,12 +61,7 @@ body {
     }
 }
 
-.header-icon-left {
-    width: 220px;
-    height: auto;
-}
-
-.header-icon-right {
+.head-icon {
     width: 220px;
     height: auto;
 }
@@ -75,22 +70,15 @@ body {
     margin-bottom: 50px;
 }
 
+.item img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .description-left {
     text-align: right;
 }
 
 .description-right {
     text-align: left;
-}
-
-.name {
-
-}
-
-.title {
-
-}
-
-.detail {
-
 }
