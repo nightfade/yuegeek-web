@@ -5,3 +5,6 @@ start.sh
 *~
 *.swp
 .avoscloud/
+.avoscloud/
+
+.idea
