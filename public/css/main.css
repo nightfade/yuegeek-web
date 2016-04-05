@@ -5,9 +5,6 @@ body {
 
 #header {
     background: #FFFFFF url(../img/header-background.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     width: auto;
     height: 750px;
@@ -22,6 +19,9 @@ body {
     margin-bottom: 80px;
 }
 
+.animate-show {
+    opacity: 0;
+}
 
 @media (max-width: 768px) {
     #header h1 {
