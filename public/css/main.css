@@ -19,6 +19,10 @@ body {
     margin-bottom: 80px;
 }
 
+.summary .large {
+    font-size: 180%;
+}
+
 .animate-show {
     opacity: 0;
 }
